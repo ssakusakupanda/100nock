@@ -6,7 +6,7 @@ import math
 print("N=",end="")
 N = int(input())
 
-file = open("./../hightemp3.txt",'r')
+file = open("./../hightemp.txt",'r')
 lines = file.readlines()
 l = len(lines)
 
